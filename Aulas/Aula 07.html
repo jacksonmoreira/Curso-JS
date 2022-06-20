@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tirador de média escolar</title>
+</head>
+    <style>
+        body {
+            background-color: white;
+
+        }
+        h1 {
+            font: normal 80pt Arial;
+            color: red;
+        }
+        p {
+            font: normal 40pt Serif;
+            color: brown;
+        }
+    </style>
+<body>
+    <h1>Tirador de média escolar!</h1>
+    <p>Sim, esse negócio pode ser útil, quando tiver uma interface gráfica, eu irei criar um simples site com isso. Tá, ninguém vai usar, mas, é só pelo sentimento de conquista.</p>
+
+    <script>
+        window.alert(`Esse aqui é o tirador de média escolar. "Cálculo feito tendo em base 4 unidades escolares"`)
+        var nome = String(window.prompt(`Digite o seu nome completo: `))
+        var escola = String(window.prompt(`Digite o nome da sua escola: `))
+        var n1 = Number(window.prompt(`Digite a primeira nota: `).replace(',' , '.'))
+        var n2 = Number(window.prompt(`Digite a segunda nota:  `).replace(',' , '.'))
+        var n3 = Number(window.prompt(`Digite a terceira nota: `).replace(',' , '.'))
+        var n4 = Number(window.prompt(`Digite a quarta nota:   `).replace(',' , '.'))
+        var média = (n1 + n2 + n3 + n4) / 4
+        window.alert(`Olá, ${nome}, aluno da escola: ${escola}, o resultado de sua média escolar anual foi de:  ${média.toFixed(2)}!`)
+    </script>
+</body>
+</html>
