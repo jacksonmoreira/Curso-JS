@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de idade</title>
+</head>
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font: normal 30pt Arial;
+        }
+        h1 {
+            color: red;
+            font: normal 50pt Serif;
+        }
+    </style>
+<body>
+    <h1>Verificação de idade</h1>
+    <script>
+       
+        var idade = window.prompt(`Digite a sua idade e eu informarei se pode ou não consumir bebidas alcólicas nessa festa!`)
+        resultado = idade >= 18 ? 'Maior de idade' : 'Menor de idade'
+        verificação = idade >= 18 ? 'está autorizado a consumir bebidas alcolicas nesta festa' : 'não está autorizado a consumir bebidas alcoolicas nesta festa.'
+        document.write(`Você é um <strong>${resultado}</strong> pois tem <strong>${idade} anos</strong>, ${verificação}... <strong>Aproveite!!!!</strong>`)
+    </script>
+</body>
+</html>
