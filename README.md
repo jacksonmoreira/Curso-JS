@@ -1,2 +1,2 @@
 # Curso JS
- Destinado a estudos da linguagem Java Script
+ *Destinado a estudos da linguagem Java Script*
